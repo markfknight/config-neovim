@@ -49,7 +49,7 @@ Plug 'dense-analysis/ale'
 Plug 'Yggdroot/indentLine'
 Plug 'editor-bootstrap/vim-bootstrap-updater'
 Plug 'tpope/vim-rhubarb' " required by fugitive to :GBrowse
-Plug 'tomasr/molokai'
+Plug 'tanvirtin/monokai.nvim'
 
 
 if isdirectory('/usr/local/opt/fzf')
@@ -192,7 +192,7 @@ set ruler
 set number
 
 let no_buffers_menu=1
-colorscheme molokai
+colorscheme monokai
 
 
 " Better command line completion 
